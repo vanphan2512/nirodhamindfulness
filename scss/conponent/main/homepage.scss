@@ -32,6 +32,10 @@
         font-weight: 500;
         font-size: 38px;
         line-height: 1.4em;
+
+        @media (max-width: 992px) {
+          font-size: 28px;
+        }
       }
     }
     .home-section-about {
@@ -76,6 +80,9 @@
 }
 .main-video-homepage {
   margin-top: 215px;
+  @media (max-width: 992px) {
+    margin-top: 70px;
+  }
   .video-banner {
     position: relative;
     .video-background {
@@ -83,13 +90,16 @@
     }
     .info-video {
       position: absolute;
-      top: 40%;
+      bottom: 0;
       left: 0;
       right: 0;
       padding: 30px;
       width: 80%;
       margin: auto;
-      display: block;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
       @media (max-width: 992px) {
         display: none;
       }
@@ -102,8 +112,14 @@
         background-color: #211e1f61;
         display: flex;
         align-items: center;
-        border-radius: 6px;
-        padding: 7px 20px;
+        padding: 0 15px;
+        width: fit-content;
+        &:first-child{
+          padding-bottom: 0;
+        }
+        &:last-child{
+          padding-bottom: 0;
+        }
       }
     }
   }
@@ -226,6 +242,10 @@
 .page-about-us{
   padding: 50px 20px;
   margin-top: 165px;
+  @media (max-width: 992px) {
+    margin-top: 70px;
+  }
+
 }
 
 .page-classes{

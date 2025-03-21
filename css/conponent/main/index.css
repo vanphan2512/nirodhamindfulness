@@ -70,6 +70,33 @@
   background-repeat: no-repeat;
   background-image: url(../images/bg04.png), linear-gradient(180deg, #ffffff 0%, #deecf3 100%); }
 
+.home-sologan {
+  background-color: #047a3d21;
+  color: #00000080;
+  margin-bottom: 50px; }
+  .home-sologan .info-sologan {
+    padding: 50px 20px; }
+    @media (max-width: 992px) {
+      .home-sologan .info-sologan {
+        padding: 20px 10px; } }
+    @media (max-width: 768px) {
+      .home-sologan .info-sologan {
+        padding: 20px 10px; } }
+    .home-sologan .info-sologan p {
+      font-weight: 400;
+      font-style: italic;
+      font-size: 19px;
+      line-height: 1.5em;
+      text-align: center;
+      color: #6c6b6c;
+      margin-bottom: 0; }
+      @media (max-width: 992px) {
+        .home-sologan .info-sologan p {
+          font-size: 16px; } }
+      @media (max-width: 768px) {
+        .home-sologan .info-sologan p {
+          font-size: 14px; } }
+
 .main-video-homepage {
   margin-top: 215px; }
   @media (max-width: 992px) {
@@ -483,5 +510,4 @@
     text-decoration: underline; }
 
 .main {
-  padding: 50px 0px;
   background-color: #fff; }

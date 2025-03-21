@@ -11775,6 +11775,32 @@ li {
     background-position: center bottom 0px;
     background-repeat: no-repeat;
     background-image: url(../images/bg04.png), linear-gradient(180deg, #ffffff 0%, #deecf3 100%); }
+  .site2 .home-sologan {
+    background-color: #047a3d21;
+    color: #00000080;
+    margin-bottom: 50px; }
+    .site2 .home-sologan .info-sologan {
+      padding: 50px 20px; }
+      @media (max-width: 992px) {
+        .site2 .home-sologan .info-sologan {
+          padding: 20px 10px; } }
+      @media (max-width: 768px) {
+        .site2 .home-sologan .info-sologan {
+          padding: 20px 10px; } }
+      .site2 .home-sologan .info-sologan p {
+        font-weight: 400;
+        font-style: italic;
+        font-size: 19px;
+        line-height: 1.5em;
+        text-align: center;
+        color: #6c6b6c;
+        margin-bottom: 0; }
+        @media (max-width: 992px) {
+          .site2 .home-sologan .info-sologan p {
+            font-size: 16px; } }
+        @media (max-width: 768px) {
+          .site2 .home-sologan .info-sologan p {
+            font-size: 14px; } }
   .site2 .main-video-homepage {
     margin-top: 215px; }
     @media (max-width: 992px) {
@@ -12172,7 +12198,6 @@ li {
     .site2 .page-contact-us ul li .phone-number {
       text-decoration: underline; }
   .site2 .main {
-    padding: 50px 0px;
     background-color: #fff; }
   .site2 .menu-mobile {
     -webkit-transform: translateZ(0);

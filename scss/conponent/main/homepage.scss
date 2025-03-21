@@ -19,7 +19,7 @@
         color: #2e7250;
         text-align: center;
         font-size: 14px;
-        font-family: "Lato-Bold" , sans-serif;
+        font-family: "Lato-Bold", sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 1px;
@@ -35,6 +35,9 @@
 
         @media (max-width: 992px) {
           font-size: 28px;
+        }
+        @media (max-width: 768px) {
+          font-size: 18px;
         }
       }
     }
@@ -63,10 +66,17 @@
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 0;
+    @media (max-width: 992px) {
+      text-align: center;
+    }
   }
   .box-subscribe {
     display: flex;
     justify-content: end;
+    @media (max-width: 992px) {
+      margin-top: 20px;
+      justify-content: center;
+    }
   }
 }
 
@@ -97,9 +107,9 @@
       width: 80%;
       margin: auto;
       display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       @media (max-width: 992px) {
         display: none;
       }
@@ -114,10 +124,10 @@
         align-items: center;
         padding: 0 15px;
         width: fit-content;
-        &:first-child{
+        &:first-child {
           padding-bottom: 0;
         }
-        &:last-child{
+        &:last-child {
           padding-bottom: 0;
         }
       }
@@ -229,7 +239,7 @@
   }
   .btn-read-more {
     margin: 10px 0;
-    .btn-read-more{
+    .btn-read-more {
       padding: 0;
     }
   }
@@ -239,17 +249,16 @@
   padding-top: 50px;
 }
 
-.page-about-us{
+.page-about-us {
   padding: 50px 20px;
   margin-top: 165px;
   @media (max-width: 992px) {
     margin-top: 70px;
   }
-
 }
 
-.page-classes{
-  .video-container{
+.page-classes {
+  .video-container {
     padding: 20px;
   }
 }
